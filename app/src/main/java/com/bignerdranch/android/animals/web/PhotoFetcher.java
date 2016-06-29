@@ -3,6 +3,7 @@ package com.bignerdranch.android.animals.web;
 import android.text.TextUtils;
 import android.util.Log;
 
+import com.bignerdranch.android.animals.BuildConfig;
 import com.bignerdranch.android.animals.listener.PhotoSearchListener;
 import com.bignerdranch.android.animals.model.GalleryItem;
 import com.bignerdranch.android.animals.model.GalleryItemList;
@@ -20,7 +21,7 @@ import retrofit.converter.GsonConverter;
 
 public class PhotoFetcher {
     private static final String TAG = "PhotoFetcher";
-    private static final String API_KEY = "d4049e2da567934e35d1e734469cdde0";
+    private static final String API_KEY = BuildConfig.API_KEY;
     private static final String ENDPOINT = "https://api.flickr.com";
 
     private static PhotoFetcher sPhotoFetcher;
