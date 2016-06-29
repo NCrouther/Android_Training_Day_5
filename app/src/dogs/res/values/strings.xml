@@ -1,0 +1,4 @@
+<resources>
+    <string name="view_animals_text">View Dogs</string>
+    <string name="app_name">Dogs</string>
+</resources>
